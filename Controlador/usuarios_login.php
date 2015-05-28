@@ -23,6 +23,9 @@
 	$result = mysqli_query($conn,$sql);
 
 	if (mysqli_num_rows($result) > 0) {
+
+		header("Location: ../Vista/catalogo.php");
+		/*
 		//imprimr los datos de cada fila
 		while ($row = $result->fetch_assoc()) {
 			echo "cveUsuario: " . $row["cveUsuario"];
@@ -30,8 +33,10 @@
 			echo "contrasena: " . $row["contrasena"];
 			echo "<br>";
 		}
+		*/
 	} 
 	else{
+		//si no se encuentran registros de ese usuario
 		header("Location: ../Vista/errorLogin.html");
 	}
 ?>

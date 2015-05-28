@@ -34,7 +34,7 @@
                             <a href="#">Iniciar Sesion</a>
                         </li>
                         <li>
-                            <a href="#">Carrito &nbsp; &nbsp;<span class="badge">42</span><i class="fa fa-2x fa-fw fa-shopping-cart pull-left text-primary"></i></a>
+                            <a href="#">Carrito<span class="badge">42</span><i class="fa fa-2x fa-fw fa-shopping-cart pull-left text-primary"></i></a>
                         </li>
                     </ul>
                 </div>
