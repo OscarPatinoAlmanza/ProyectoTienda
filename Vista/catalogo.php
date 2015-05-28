@@ -31,10 +31,10 @@
                             <a href="#">Inicio<br></a>
                         </li>
                         <li>
-                            <a href="#">Iniciar Sesion</a>
+                            <?php echo "<a>".$_GET['user']."</a>"; ?>
                         </li>
                         <li>
-                            <a href="#">Carrito<span class="badge">42</span><i class="fa fa-2x fa-fw fa-shopping-cart pull-left text-primary"></i></a>
+                            <a href="#">Carrito  <span class="badge">42</span><i class="fa fa-2x fa-fw fa-shopping-cart pull-left text-primary"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -42,11 +42,6 @@
         </div>
         <div class="section">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <hr>
-                    </div>
-                </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="page-header text-center">

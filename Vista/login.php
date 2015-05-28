@@ -60,7 +60,7 @@
                         <div class="page-header">
                             <h1>No tengo cuenta</h1>
                         </div>
-                        <a class="btn btn-block btn-lg btn-primary" href="registro.html">Crear una cuenta<br></a>
+                        <a class="btn btn-block btn-lg btn-primary" href="registro.php">Crear una cuenta<br></a>
                     </div>
                 </div>
             </div>

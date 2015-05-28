@@ -24,7 +24,7 @@
 
 	if (mysqli_num_rows($result) > 0) {
 
-		header("Location: ../Vista/catalogo.php");
+		header("Location: ../Vista/catalogo.php?user=$usuario");
 		/*
 		//imprimr los datos de cada fila
 		while ($row = $result->fetch_assoc()) {
